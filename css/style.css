@@ -1,0 +1,706 @@
+:root
+{
+    --main-color:#3CAB90;
+     --sub-color: #FFBB1C;
+
+}
+h1,h2,h3,h4,h5,h6
+{
+    font-weight: 800;
+}
+p
+{
+    font-weight: 400;
+}
+
+
+html,body
+{
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+    /*****Start Header Style *****/
+.home
+{
+    height:100vh;
+    background-image: url(../photos/solar-panels-meadow\ 1.png) ;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    position: relative;        
+}
+.home nav
+{
+    background-color: var(--main-color);
+    color: #FFF;
+}
+.home nav .container 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.home nav .container ul
+{
+    list-style-type: none;
+    display: flex;
+}
+
+.home nav .container ul li
+{
+    margin: 0 25px;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+.home nav .container ul #H
+{
+    border-bottom: 3px solid rgba(0, 0, 0, 0.09);
+    background-color:rgba(0, 0, 0, 0.03) ;
+}
+.home nav .container p
+{
+    margin: 0;
+}
+
+.home .contain
+{
+    width: 729px;
+    height: 305px;
+    position: absolute;
+    top: 261px;
+    left: 150px;
+}
+.home .contain .box
+{
+    display: flex;
+    align-items: center;
+}
+.home .contain .box p
+{
+    font-weight: 400;
+    font-size: 18px;
+
+}
+.home .contain .box .line-1
+{
+    width: 150px;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.26);
+    margin: 30px;
+}
+.home .contain .box .line-1 .line-2
+{
+    width: 70px;
+    height: 2px;
+    background-color:#fff;
+}
+.home .contain h2
+{
+    color: #fff;
+    font-size: 52px;
+    font-weight: 600;
+}
+.home .contain p
+{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.home .contain .btn .btn-call
+{
+    width: 173px;
+    height: 41px;
+    padding: 12px 34px;
+    color: #fff;
+    background-color: var(--main-color);
+    border-radius: 109px;
+    border: 0;
+}
+.home .contain .btn .btn-requst
+{
+    width: 208px;
+    height: 41px;
+    padding: 12px 34px;
+    background-color: var(--sub-color);
+    border-radius: 109px;
+    border: 0;
+    margin-left: 20px;
+}
+    /*****End Header Style *****/
+
+
+
+    /*****Start friendlist Style *****/
+ .container
+    {
+        width: 1135.52px;
+        padding: 50px 0px;
+        margin:auto;
+        display: flex;
+        position: relative;
+    }
+    .home nav .container
+    {
+        padding: 10px;
+    }
+    .friendlist .container .contain
+    {
+        width: 594px;
+        height: 476px;
+    }
+    .friendlist .container .contain h3
+    {
+        font-size: 42px;
+        font-weight: 600;
+    }
+    .friendlist .container .contain p
+    {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .friendlist .container .contain ul
+    {
+        list-style-type: none;
+        padding-left: 0;
+        margin-top: 30px;
+    }
+    .friendlist .container .contain ul li
+    {
+        font-size: 20px;
+        font-weight: 600;
+        margin: 20px 0;
+    }
+    .friendlist .container .contain ul li span
+    {
+        font-weight: 700;
+        color: #84BD3A;
+    }
+
+    .friendlist .container .images img
+    {
+        width: 469px;
+        height: 552px;
+        position: absolute;
+        top: 80px;
+        left: 666.52px;
+        border-radius: 12px;
+    }
+
+    .friendlist .container .images .box
+    {
+        background-color: var(--sub-color);
+        width: 220px;
+        /* height: 208px; */
+        border-radius: 12px;
+        padding: 24px 30px;
+        position: absolute;
+        top: 400px;
+        left: 627px;
+
+    }
+    /*****End friendlist Style *****/
+
+
+
+    /*****Start Power Style *****/
+.power
+{
+    /* width: 1440px; */
+    height: 505px;
+    background-image: url(../photos/8116\ 1.png) ;
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed; */
+    position: relative;
+    margin-top: 150px;
+}
+ 
+.power .contain
+{
+    width: 678px;
+    height: 212px;
+    position: absolute;
+    top: 150px;
+    left:150px;
+}
+.power .contain h3
+{
+    color: #fff;
+    font-weight: 600;
+    font-size: 42px;
+}
+.power .contain p
+{
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+}
+.power .contain button
+{
+    width: 173px;
+    height: 41px;
+    padding-top: 12px 34px;
+    border-radius: 109px;
+    border: 0;
+    background-color: var(--sub-color);
+}
+
+    /*****End Power Style *****/
+
+
+
+
+    /*****Start Solar Style *****/
+
+.solar .container
+{
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+
+
+}
+.solar .container .header h3
+{
+    font-weight: 600;
+    font-size: 42px;
+    text-align: center;
+    margin: 20px;
+}
+.solar .container .header p
+{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    width: 936px;
+    height: 48px;
+    margin: auto;
+    padding-bottom: 20px;
+    
+}
+.solar .container .box 
+{
+    display: flex;
+    justify-content: space-between;
+}
+.solar .container .box .item
+{
+    width: 33%;
+    box-shadow: 0px 4px 30px 0px #0000000D;
+
+}
+.solar .container .box .item .img
+{
+    width: 100%;
+}
+.solar .container .box .item .contact
+{
+    padding:20px;
+}
+.solar .container .box .item .contact h4
+{
+    font-weight: 600;
+    font-size: 20px;
+}
+.solar .container .box .item .contact p
+{
+    font-weight: 400;
+    font-size: 16px;    
+}
+.solar .container .box .item .contact button
+{
+    height: 24px; 
+    border: 0;
+    color:var(--main-color) ;
+    background-color: transparent;
+}
+    /*****End Solar Style *****/
+
+
+
+
+    /*****Start Repairs Style *****/
+.repairs
+{
+    /* width: 1440px; */
+    height: 505px;
+    background-image: url(../photos/8116\ 1\ \(1\).png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.repairs .box
+{
+    width: 858px;
+    height: 311px;
+    color: #fff;
+    border-radius: 12px;
+    padding: 14px;
+    background-color: rgba(0, 0, 0, .57);
+    backdrop-filter: blur(24px);
+
+    
+}
+.repairs .box h3
+{
+    font-weight: 600;
+    font-size: 42px;
+    text-align: center;
+}
+.repairs .box p
+{
+    font-weight: 500;
+    font-size: 20px;   
+    text-align: center; 
+}
+    /*****End Repairs Style *****/
+
+
+
+    /*****Start Energy Style *****/
+.energy
+{
+    display: flex;  
+    padding: 80px 150px;
+    justify-content: space-between;
+    background-color: #FFBB1C0D;
+    ;
+}
+.energy .box
+{
+    width: 32%;
+}
+
+.energy .box-1 .icon
+{
+    width: 56px;
+    height: 56px;
+    border-radius: 10px;
+    border: 15px solid #E2F0E5;
+    background-color: var(--main-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.energy .box-1 h3
+{
+    font-weight: 600;
+    font-size: 42px;
+    color:  rgba(16, 24, 40, 1);
+}
+.energy .box-1 p
+{
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(71, 84, 103, 1);
+    
+}
+.energy .box .item
+{
+
+    border-radius: 12px;
+    padding: 24px;
+    border: 1px solid var(--main-color);
+    background-color: #3CAB900D;
+    margin-bottom: 20px;
+
+}
+.energy .box .item .contact h4
+{
+    font-weight: 600;
+    font-size: 20px;
+}
+.energy .box .item .contact p
+{
+    font-weight: 400;
+    font-size: 16px;
+}
+.energy .box .item .contact p span
+{
+
+    text-decoration: underline;
+    text-decoration-style: solid;
+    
+}
+.energy .box .item .contact button
+{
+    font-weight: 600;
+    font-size: 16px;
+    border: 0;
+    color: var(--main-color);
+    background-color: transparent;
+    
+}
+    /*****ENd Energy Style *****/
+
+
+
+
+    /*****Start Our Values Style *****/
+
+.values .container
+{
+    display: flex;
+    flex-direction: column;
+}
+.values .header
+{
+    width: 1140px;
+    height: 157px;
+}
+.values .header h3
+{
+    font-weight: 600;
+    font-size: 42px;
+    text-align: center;
+    margin-top: 0;
+}
+.values .header p
+{
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
+.values .box
+{
+    display: flex;
+    justify-content: space-between;
+}
+.values .box .item
+{
+    width: 26%;
+    border-radius: 12px;
+    padding: 32px;
+    border:1px ,solid , var(--main-color) ;
+    background-color:  rgba(60, 171, 144, 0.05);
+}
+.values .box .item h4
+{
+    font-weight: 600;
+    font-size: 20px;
+}
+.values .box .item p
+{
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(71, 84, 103, 1);
+}
+    /*****End Our Values Style *****/
+
+
+
+
+
+
+    /*****Start WOC Style *****/
+
+
+.woc .container
+{
+    display: flex;
+    justify-content: space-between;
+}
+.woc .container .what
+{
+    width: 40%;
+    margin-top: 50px;
+}
+.woc .container .what h3
+{
+    font-weight: 700;
+    font-size: 48px;
+    
+}
+.woc .container .what p
+{
+    font-weight: 400;
+    font-size: 18px;
+    
+}
+.woc .container .slider
+{
+    width: 45%;
+    height: auto;
+    border-radius: 24px;
+    padding: 40px;
+    background-color: rgba(60, 171, 144, 0.06);
+}
+.woc .container .slider .header
+{
+    display: flex;
+    justify-content: space-between;
+}
+.woc .container .slider .header h4
+{
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--main-color);
+    margin: 0;
+}
+.woc .container .slider .body p
+{
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.woc .container .slider .foter
+{
+    display: flex;
+    justify-content: space-between;
+}
+.woc .container .slider .foter .left
+{
+    display: flex;
+}
+.woc .container .slider .foter img
+{
+    width: 60px;
+    height: 60px;
+}
+.woc .container .slider .foter .left div
+{
+    margin-left: 5px;
+}
+.woc .container .slider .foter .left div h4
+{
+    margin: 0;
+}
+.woc .container .slider .foter .right
+{
+    padding-top: 10px;
+}
+
+    /*****End WOC Style *****/
+
+
+
+
+
+
+
+
+    /*****Start Footer Style *****/
+    .footer
+    {
+        height: 300px;
+        background-color: #283646;
+        
+    }
+    .footer .container
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer .container .top
+    {
+        padding-bottom: 30px;
+        border-bottom: 2px solid #71777D;
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer .container .top .left ul
+    {
+        width: 499px;
+        list-style-type: none;
+        padding-left: 0;
+        display: flex;
+        justify-content: space-between;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .footer .container .top .right
+    {
+        position: relative;
+    }
+    .footer .container .top .right form {
+        margin: 0;
+        padding: 0;
+    }
+    .footer .container .top .right p
+    {
+        font-weight: 400;
+        font-size: 16px;
+        color: #FFF;
+    }
+    .footer .container .top .right input
+    {
+
+        width: 406px;
+        height: 45px;
+        padding-left: 20px;
+        border-radius: 38px;
+        border: 1px solid #B3BDC7;
+        background-color:#3B4857 ;
+    }
+    .footer .container .top .right .btn
+    {
+        width: 147px;
+        height: 48px;
+        padding: 12px 34px;
+        border-radius: 38px;
+        border: 1px solid #B3BDC7;
+        color: #FFF;
+        background-color: #FFBB1C;
+        position: absolute;
+        right: 0;
+    }
+    .footer .container .botton
+    {
+        display: flex;
+        justify-content: space-between;
+        margin-top:20px ;
+
+    }
+    .footer .container .botton p
+    {
+        font-weight: 400;
+        font-size: 12px;
+        color: #92989F;
+    }
+
+    /*****End Footer Style *****/
+
+
+
+
+
+
+
+
+
+    @media (max-width: 1024px) {
+        .home .contain {
+          width: 90%;
+          height: auto;
+          top: 200px;
+          left: 5%;
+        }
+      
+        .home nav .container {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+      
+        .home nav .container ul {
+          flex-direction: column;
+          gap: 10px;
+        }
+      
+        .home nav .container ul li {
+          margin: 10px 0;
+        }
+      }
+      
+
+      
+      
